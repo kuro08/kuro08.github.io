@@ -1,1 +1,1 @@
-# kuro08project.github.io
+# kuro08.github.io
