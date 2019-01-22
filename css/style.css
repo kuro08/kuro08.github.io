@@ -1,16 +1,16 @@
 .navbar-brand{
-font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .jumbotron{
-display: flex;
-background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://wpblink.com/sites/default/files/wallpaper/sci-fi/73464/night-sky-wallpapers-hd-73464-2120020.png");
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
-height: 50%;
-color: white;
+    display: flex;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://wpblink.com/sites/default/files/wallpaper/sci-fi/73464/night-sky-wallpapers-hd-73464-2120020.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 50%;
+    color: white;
 }
 
 .img-top2{  
@@ -19,4 +19,39 @@ color: white;
     padding: 0px;
     width: 150px;
     height: 150px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:  #262626;
+    min-width: 160px;
+    box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px 10px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color:#9d9d9d;;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
