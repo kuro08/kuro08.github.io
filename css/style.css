@@ -1,0 +1,22 @@
+.navbar-brand{
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+.jumbotron{
+display: flex;
+background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://wpblink.com/sites/default/files/wallpaper/sci-fi/73464/night-sky-wallpapers-hd-73464-2120020.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+height: 50%;
+color: white;
+}
+
+.img-top2{  
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    padding: 0px;
+    width: 150px;
+    height: 150px;
+}
