@@ -64,3 +64,27 @@ a:hover{
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+th {
+    font-weight : bold;
+}
+
+.table{
+    margin: 0 10 0 40;
+    overflow-x:auto;
+}
+
+table{
+    border-color: #ebebeb;
+}
+
+table td{
+   padding: 20px;
+}
+
+tr:nth-child(even) {background-color: #f0f0f0;}
+
+h1{
+    margin-left: 40px;
+    margin-top: 40px;
+}

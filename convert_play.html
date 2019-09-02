@@ -7,8 +7,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:600" rel="stylesheet">
-        <link rel="stylesheet" href="css/style.css">
-        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <link rel="stylesheet" href="css/style.css"> 
         <script src="js/script.js"></script>
         <script src="js/table.js"></script>
     </head>
@@ -25,10 +24,10 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="https://kuro08.github.io/">Home</a></li>
-                <li class="dropdown"><a href="#">Osu</a>
+                <li><a href="https://kuro08.github.io/">Home</a></li>
+                <li class="dropdown active"><a href="#">Osu</a>
                     <div class="dropdown-content">
-                        <a href="#">Convert Playlist</a>
+                        <a href="https://kuro08.github.io/convert_play">Convert Playlist</a>
                         <a href="#">Convert Map List  (PP Based)</a>
                         <a href="#">Soon</a>
                     </div>
@@ -38,23 +37,27 @@
         </div>
         </div>
     </nav>
-    <script>
-        var country = ["Norway", "Sweden", "Denmark"];
-    var capital = ["Oslo", "Stockholm" , "Copenhagen"]
-
-    var bodyString = '';
-    $.each(country, function(index, ctry) {
-        bodyString += ('<tr><td>'+ctry+'</td><td>'+capital[index]+'</td></tr>');
-    });
-    $('.countriesTable tbody').html(bodyString);
-    </script>
-    <table class="countriesTable">
-            <thead>
-                <tr><th>Country</th><th>Capital</th>
-            </thead>
-            <tbody>
-            
-            </tbody>
-        </table>
+    <h1>Convert Playlist</h1>
+    <br /><br />  
+    <div class="table">
+    <p>These are all the convert beatmaps that Rinze has been played. Including Fail & Odd Beatmaps</p>
+    <i><p>Update: 02 September 2019</p></i>
+    <table id="tbNames" border="1" style="padding:20px">
+    <tr>
+        <th style="text-align: center; padding: 15px; background-color: #e6e6e6"></th>
+        <th style="text-align: center; padding: 15px; background-color: #e6e6e6">Map</th>
+        <th style="text-align: center; padding: 15px; background-color: #e6e6e6">Star&#9733;</th>
+        <th style="text-align: center; padding: 15px; background-color: #e6e6e6">PP</th>
+        <th style="text-align: center; padding: 15px; background-color: #e6e6e6">Rank</th>
+        <th style="text-align: center; padding: 15px; background-color: #e6e6e6">Mod</th>
+        <th style="text-align: center; padding: 15px; background-color: #e6e6e6">Status</th>
+    </tr>
+    <!-- <tr>
+           <td>
+               put value here
+           </td>
+       </tr>-->
+</table>
+</div>      
     </body>
 </html>
