@@ -12,8 +12,8 @@ function arrayData() {
         Star: 4.40,
         PP: 129,
         Rank: "S",
-        Mod: "NM",
         Ranking: "soon",
+        Mod: "NM",
         Status: "Pass"
     }, {
         Map: "Sasaki Sayaka - Kiss no Hitotsu de [Serenade]",
