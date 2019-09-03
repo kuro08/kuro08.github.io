@@ -240,7 +240,7 @@ function arrayData() {
         Ranking: "#152",
         Mod: "NF",
         Status: "FC"
-    },{
+    },{ 
         Map: "Ayase Rie - Yuima-ru*World TVver. [Insane]",
         Star: 2.69,
         PP: 65,
