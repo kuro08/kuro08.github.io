@@ -190,64 +190,64 @@ function arrayData() {
         PP: 72,
         Rank: "SS",
         Ranking: "#276",
-        Mod: "NM",
+        Mod: "NF",
+        Status: "FC"
+    },{
+        Map: "Shinra-Bansho - Kyoukyou no Fortunate Polka [Collab Insane]",
+        Star: 2.73,
+        PP: 80,
+        Rank: "SS",
+        Ranking: "#22",
+        Mod: "NF",
+        Status: "FC"
+    },{
+        Map: "Hello, Happy World! - Goka! Gokai!? Phantom Thief! [Hinsvar's Insane]",
+        Star: 2.75,
+        PP: 72,
+        Rank: "SS",
+        Ranking: "#40",
+        Mod: "NF",
+        Status: "FC"
+    },{
+        Map: "Sakakibara Yui - Love Comp! (Short Ver.) [Insane]",
+        Star: 2.69,
+        PP: 91,
+        Rank: "S",
+        Ranking: "#226",
+        Mod: "HDDT",
         Status: "Pass"
     },{
-        Map: "Chimame-tai - Tokimeki Poporon [Crystal's Insane]",
+        Map: "Nishino Kana - Darling [Insane]",
         Star: 3.09,
         PP: 54,
-        Rank: "S",
-        Ranking: "#109",
-        Mod: "NM",
-        Status: "Pass"
+        Rank: "SS",
+        Ranking: "#331",
+        Mod: "NF",
+        Status: "FC"
     },{
-        Map: "Chimame-tai - Tokimeki Poporon [Crystal's Insane]",
-        Star: 3.09,
-        PP: 54,
-        Rank: "S",
-        Ranking: "#109",
-        Mod: "NM",
-        Status: "Pass"
+        Map: "ayase rie - yuima-ru*world [Real's Insane]",
+        Star: 2.63,
+        PP: 67,
+        Rank: "SS",
+        Ranking: "#200",
+        Mod: "NF",
+        Status: "FC"
     },{
-        Map: "Chimame-tai - Tokimeki Poporon [Crystal's Insane]",
-        Star: 3.09,
-        PP: 54,
-        Rank: "S",
-        Ranking: "#109",
-        Mod: "NM",
-        Status: "Pass"
+        Map: "Camellia feat. Nanahira - Bassdrop Freaks (2018 'Redrop' ver.) [Hyper]",
+        Star: 2.62,
+        PP: 75,
+        Rank: "SS",
+        Ranking: "#152",
+        Mod: "NF",
+        Status: "FC"
     },{
-        Map: "Chimame-tai - Tokimeki Poporon [Crystal's Insane]",
-        Star: 3.09,
-        PP: 54,
+        Map: "Ayase Rie - Yuima-ru*World TVver. [Insane]",
+        Star: 2.69,
+        PP: 65,
         Rank: "S",
-        Ranking: "#109",
-        Mod: "NM",
-        Status: "Pass"
-    },{
-        Map: "Chimame-tai - Tokimeki Poporon [Crystal's Insane]",
-        Star: 3.09,
-        PP: 54,
-        Rank: "S",
-        Ranking: "#109",
-        Mod: "NM",
-        Status: "Pass"
-    },{
-        Map: "Chimame-tai - Tokimeki Poporon [Crystal's Insane]",
-        Star: 3.09,
-        PP: 54,
-        Rank: "S",
-        Ranking: "#109",
-        Mod: "NM",
-        Status: "Pass"
-    },{
-        Map: "Chimame-tai - Tokimeki Poporon [Crystal's Insane]",
-        Star: 3.09,
-        PP: 54,
-        Rank: "S",
-        Ranking: "#109",
-        Mod: "NM",
-        Status: "Pass"
+        Ranking: "#908",
+        Mod: "NF",
+        Status: "FC"
     }];
     for (index = 0; index < player.length; index++) {
        
