@@ -1,3 +1,5 @@
 # kuro08.github.io
 
-This site is my portofolio and reference about me muehehehe
+This site containt my repo list and some osu stuff 
+
+[kuro08.github.io](https://kuro08.github.io/)
