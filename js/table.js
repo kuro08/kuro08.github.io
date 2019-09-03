@@ -12,6 +12,7 @@ function arrayData() {
         Star: 4.40,
         PP: 129,
         Rank: "S",
+        Ranking: "#34",
         Mod: "NM",
         Ranking: "soon",
         Status: "Pass"
@@ -20,7 +21,11 @@ function arrayData() {
         Star: 4.37,
         PP: 78,
         Rank: "S",
+<<<<<<< HEAD
         Ranking: "soon",
+=======
+        Ranking: "#30",
+>>>>>>> 0564fbf1b01d08eb3dc6d5f91e30988aaa6b7e8b
         Mod: "NM",
         Status: "Pass"
     }, {
@@ -28,7 +33,11 @@ function arrayData() {
         Star: 4.37,
         PP: 52,
         Rank: "S",
+<<<<<<< HEAD
         Ranking: "soon",
+=======
+        Ranking: "#43",
+>>>>>>> 0564fbf1b01d08eb3dc6d5f91e30988aaa6b7e8b
         Mod: "HD",
         Status: "Pass"
     }, {
@@ -37,6 +46,57 @@ function arrayData() {
         PP: 37,
         Rank: "A",
         Ranking: "soon",
+<<<<<<< HEAD
+=======
+        Mod: "NM",
+        Status: "Pass"
+    },{
+        Map: "DJ Genki VS Camellia feat. moimoi - YELL! [Illumination]",
+        Star: 5.33,
+        PP: 98,
+        Rank: "S",
+        Ranking: "#49",
+        Mod: "NM",
+        Status: "Pass"
+    },{
+        Map: "TrySail - High Free Spirits -TV.Ver- [Extra]",
+        Star: 3.71,
+        PP: 82,
+        Rank: "S",
+        Ranking: "#56",
+        Mod: "NM",
+        Status: "Pass"
+    },{
+        Map: "Kani*Do-Luck! (TV Size) [A I U R A !]",
+        Star: 4.48,
+        PP: 175,
+        Rank: "S",
+        Ranking: "#6",
+        Mod: "NM",
+        Status: "Pass"
+    },{
+        Map: "Halozy - Masshiro na Yuki [White Eternity]",
+        Star: 4.78,
+        PP: 34,
+        Rank: "S",
+        Ranking: "#6",
+        Mod: "NM",
+        Status: "Pass"
+    },{
+        Map: " Takamori Natsumi, Sendai Eri, Asakawa Yuu, Tanezaki Atsumi - Ne! Ko! [Extra]",
+        Star: 3.36,
+        PP: 143,
+        Rank: "S",
+        Ranking: "#82",
+        Mod: "NM",
+        Status: "FC"
+    },{
+        Map: " Yoshino Nanjo - Kimi o Sagashi ni [Mitsuketa]",
+        Star: 3.60,
+        PP: 130,
+        Rank: "S",
+        Ranking: "#13",
+>>>>>>> 0564fbf1b01d08eb3dc6d5f91e30988aaa6b7e8b
         Mod: "NM",
         Status: "Pass"
     }];
