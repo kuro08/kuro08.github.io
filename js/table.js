@@ -9,6 +9,7 @@ function arrayData() {
     var player = [];
     player = [{
         Map: "Mitani Nana - Chikyuu Saigo no Kokuhaku o [Collab] ",
+        Link: "https://osu.ppy.sh/beatmapsets/65491#fruits/191805",
         Star: 4.40,
         PP: 129,
         Rank: "S",
@@ -18,6 +19,7 @@ function arrayData() {
         Status: "Pass"
     }, {
         Map: "Sasaki Sayaka - Kiss no Hitotsu de [Serenade]",
+        Link: "https://osu.ppy.sh/beatmapsets/65491#fruits/191805",
         Star: 4.37,
         PP: 78,
         Rank: "S",
@@ -252,7 +254,7 @@ function arrayData() {
     for (index = 0; index < player.length; index++) {
        
 
-        $("#tbNames tr:last").after("<tr><td style='width: 1px'> &#8226; </td> <td style='width: 500px'>" + player[index].Map + "</td> <td style='text-align: center'>" + player[index].Star + "</td> <td style='text-align: center'>" + player[index].PP + " </td> <td style='text-align: center'>" + player[index].Rank + " </td> <td style='text-align: center'>" + player[index].Ranking + " </td> <td style='width: 80px; text-align: center'>" + player[index].Mod + " </td> <td style='width: 80px; text-align: center'>" + player[index].Status + " </td> </tr>");
+        $("#tbNames tr:last").after("<tr><td style='width: 1px'> &#8226; </td> <td style='width: 500px'><a href="+ player[index].Link +">" + player[index].Map + "</a></td> <td style='text-align: center'>" + player[index].Star + "</td> <td style='text-align: center'>" + player[index].PP + " </td> <td style='text-align: center'>" + player[index].Rank + " </td> <td style='text-align: center'>" + player[index].Ranking + " </td> <td style='width: 80px; text-align: center'>" + player[index].Mod + " </td> <td style='width: 80px; text-align: center'>" + player[index].Status + " </td> </tr>");
     }
     
 

@@ -88,3 +88,15 @@ h1{
     margin-left: 40px;
     margin-top: 40px;
 }
+
+table a:link {
+    color:#363636;
+}
+
+table td a:hover {
+    color:#45a8d9;
+}
+
+table a:visited {
+    color:#363636;
+}
