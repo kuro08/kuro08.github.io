@@ -101,7 +101,7 @@ function arrayData() {
     },{
         Map: "Hyadain - Hyadain no Joujou Yuujou (TV Size) [Collab]",
         Link: "https://osu.ppy.sh/b/119028?m=2",
-        Star: 3.37,
+        Star: 3.67,
         PP: 112,
         Rank: "S",
         Ranking: "#130",
@@ -110,7 +110,7 @@ function arrayData() {
     },{
         Map: "Takamori Natsumi, Sendai Eri, Asakawa Yuu, Tanezaki Atsumi - Ne! Ko! [Extra]",
         Link: "https://osu.ppy.sh/b/1371450?m=2",
-        Star: 3.36,
+        Star: 3.66,
         PP: 143,
         Rank: "SS",
         Ranking: "#82",
