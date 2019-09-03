@@ -87,9 +87,7 @@ function arrayData() {
         Ranking: "#13",
         Mod: "NM",
         Status: "Pass"
-    },
-             
-             ];
+    }];
     for (index = 0; index < player.length; index++) {
        
 
